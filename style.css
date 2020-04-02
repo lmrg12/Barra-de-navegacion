@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:none;
+}
+.colWidth12-12{
+    width: 100%;
+}
+.colWidth6-12{
+    width: 50%;
+}
+.colWidth3-12{
+    width: 25%;
+}
+.hi50{
+    height: 50px;
+    background-color:rgba(0,0,0,.7);
+}
+.hi50 a{
+    color: white;
+    text-decoration: none
+}
+.flexCentered{
+    display: flex ;
+    flex-direction: row ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    align-content: center ;
+}
